@@ -25,6 +25,7 @@ params:
   defaultTheme: auto
   displayCategories: true
   displayTags: true
+  showHomeContent: true  # 👈 加这一行
   search:
     enable: true
 
