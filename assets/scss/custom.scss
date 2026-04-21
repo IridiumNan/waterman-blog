@@ -1,0 +1,78 @@
+/*
+    You can add your own custom styles here.
+*/
+
+// header gaps
+.sidebar header {
+    gap: 27px;
+}
+
+.sidebar header .site-meta {
+    gap: 6px;
+}
+
+// left sidebar margin
+.left-sidebar.sticky {
+    margin-left: 6px;
+}
+
+// avatar
+.sidebar header .site-avatar .site-logo {
+    width: 120%;
+    height: 120%;
+    border-radius: 0%;
+    box-shadow: none;
+    margin-left: -14px;
+}
+
+// site-name
+.sidebar header .site-name a {
+    font-size: 2.0rem;
+    color: #e63030;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+}
+
+// site-name hover
+.sidebar header .site-name a:hover {
+    color: #aa2a2a;
+}
+
+// subtitle
+.sidebar header .site-description {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #ff9191;
+    letter-spacing: 3px;
+}
+
+// 侧边栏宽度，间接修改文章宽度
+@media (min-width: 1024px) {
+    .container.extended {
+        max-width: 1666px;
+        --left-sidebar-max-width: 13% !important;
+        --right-sidebar-max-width: 25% !important;
+    }
+}
+
+// 封皮高度unset
+.article-page .main-article .article-header .article-image img {
+    max-height: unset;
+}
+
+// 文章字体
+body,
+.article-content,
+.article-title,
+.article-page,
+h1, h2, h3, h4, h5, h6 {
+    font-family: "LXGW WenKai Screen", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+}
+
+// 文章字号
+.article-content {
+    font-size: 1.85rem;
+}
+
