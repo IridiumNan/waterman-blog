@@ -39,6 +39,9 @@ menu:
       name: 文章
       url: /posts
       weight: 2
+    - identifier: philosophy
+      name: 哲思
+      url: /philosophy
     - identifier: projects
       name: 项目
       url: /projects
@@ -47,4 +50,3 @@ menu:
       name: 关于我
       url: /about
       weight: 4
-
