@@ -30,8 +30,8 @@ headless = false
 
 ## 我玩过什么
 - [cpp手写矩阵类实现动画](projects/matrix-animation/)
+- [tailscale](./posts/tailscale_base/)
 - [nginx配置静态网站和反向代理](posts/tailscale_nginx_https_config/)
-- [tailscale]()
 - [git]()
 - [python复现简化版的MobileNetV2]()
 <br>等等
@@ -39,4 +39,5 @@ headless = false
 ## 最新内容
 - [hugo入门](posts/hugo_usage/)
 - [nginx配置tailscale+https](posts/tailscale_nginx_https_config/)
+- [系统与个人的哲学随笔](philosophy/person_system/)
 
