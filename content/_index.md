@@ -37,6 +37,7 @@ headless = false
 <br>等等
 
 ## 最新内容
+- [tailscale 白嫖公网网址](posts/tailscale_funnel/)
 - [hugo入门](posts/hugo_usage/)
 - [nginx配置tailscale+https](posts/tailscale_nginx_https_config/)
 - [系统与个人的哲学随笔](philosophy/person_system/)
