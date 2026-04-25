@@ -36,13 +36,9 @@ server {
 
 	server_name example.com;
 
-	root /var/www/example.com;
-	index index.html;
-
 	location / {
         root /var/www/html;
         index index.html index.htm index.
-        #
 	}
 }
 ```
