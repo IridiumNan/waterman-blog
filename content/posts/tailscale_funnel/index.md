@@ -34,7 +34,7 @@ server {
 	listen 80; # 有这一行就不需要调整
 	listen [::]:80;
 
-	server_name example.com;
+	server_name localhost 127.0.0.1
 
 	location / {
         root /var/www/html;
