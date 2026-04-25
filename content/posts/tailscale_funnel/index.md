@@ -22,6 +22,10 @@ title = 'Tailscale_funnel'
 
 ---
 
+---
+[结合nginx, caddy的快速通道](./nginx.md)
+---
+
 ## 基本介绍
 
 > tailscale funnel 并不是自己起一个服务， 它的作用是反向代理
