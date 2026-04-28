@@ -33,6 +33,7 @@ headless = false
 - [tailscale](./posts/tailscale_base/)
 - [nginx配置静态网站和反向代理](posts/tailscale_nginx_https_config/)
 - [debian配置静态ip](posts/static_ip_addr/)
+- [certbot配置公网https证书](posts/https_certbot_config/)
 <br>等等
 
 ## 最新内容
