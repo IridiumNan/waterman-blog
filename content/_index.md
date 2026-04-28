@@ -34,6 +34,7 @@ headless = false
 - [nginx配置静态网站和反向代理](posts/tailscale_nginx_https_config/)
 - [debian配置静态ip](posts/static_ip_addr/)
 - [certbot配置公网https证书](posts/https_certbot_config/)
+- [配置ssh公钥](posts/ssh-key/)
 <br>等等
 
 ## 最新内容
