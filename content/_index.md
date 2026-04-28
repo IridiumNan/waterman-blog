@@ -35,6 +35,7 @@ headless = false
 - [debian配置静态ip](posts/static_ip_addr/)
 - [certbot配置公网https证书](posts/https_certbot_config/)
 - [配置ssh公钥](posts/ssh-key/)
+- [修复dns解析debian](posts/dns_debian_fix/)
 <br>等等
 
 ## 最新内容
