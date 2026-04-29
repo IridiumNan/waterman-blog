@@ -30,6 +30,7 @@ headless = false
 ## 我玩过什么
 
 - [zsh插件配置](posts/zsh_init_config/)
+- [lazyvim插件配置](posts/lazyvim_config/)
 - [cpp手写矩阵类实现动画](projects/matrix-animation/)
 - [tailscale](./posts/tailscale_base/)
 - [nginx配置静态网站和反向代理](posts/tailscale_nginx_https_config/)
