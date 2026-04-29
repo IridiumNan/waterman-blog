@@ -62,6 +62,7 @@ suod sysctl -p
 
 ```bash
 # 新创建一个配置文件 放在 /etc/sysctl.d/ 目录下
+sudo touch /etc/sysctl.conf
 sudo touch /etc/sysctl.d/99-sysctl.conf
 
 echo "net.ipv4.ip_forward = 1" | sudo tee /etc/sysctl.d/99-sysctl.conf
@@ -130,3 +131,5 @@ traceroute to baidu.com (111.63.65.247), 30 hops max, 60 byte packets
  1  _gateway (192.168.200.1)  1.491 ms  1.392 ms  1.345 ms
 
 ```
+
+> 如果失败了， 最好的办法就是重启， 让路由器重新加载配置, 成功率大大提高哦
