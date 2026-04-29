@@ -37,11 +37,13 @@ headless = false
 - [配置ssh公钥](posts/ssh-key/)
 - [修复dns解析debian](posts/dns_debian_fix/)
 - [debian虚拟机配置路由器](posts/router_config/)
+- [wireguard协议虚拟机实验](posts/wireguard_double_router/)
 <br>等等
 
-## 最新内容
+## 推荐内容
 
 - [tailscale 白嫖公网网址](posts/tailscale_funnel/)
 - [hugo入门](posts/hugo_usage/)
 - [nginx配置tailscale+https](posts/tailscale_nginx_https_config/)
+- [wireguard协议虚拟机实验](posts/wireguard_double_router/)
 - [系统与个人的哲学随笔](philosophy/person_system/)
