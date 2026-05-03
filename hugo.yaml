@@ -42,11 +42,16 @@ menu:
     - identifier: philosophy
       name: 哲思
       url: /philosophy
+      weight: 3
     - identifier: projects
       name: 项目
       url: /projects
-      weight: 3
+      weight: 4
+    - identifier: friends
+      name: 同途
+      url: /friends
+      weight: 5
     - identifier: about
       name: 关于我
       url: /about
-      weight: 4
+      weight: 6
