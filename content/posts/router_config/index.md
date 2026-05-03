@@ -52,7 +52,7 @@ inner -> 创建的时候勾选 -> customize configuration before install -> Netw
 1. 有 /etc/sysctl.conf
 
 ```bash
-echo "net.ipv4.ip_forward = 1" | sudo tee /etc/sysctl.conf
+echo "net.ipv4.ip_forward = 1" | sudo tee -a /etc/sysctl.conf
 
 # 启动配置
 suod sysctl -p
@@ -65,7 +65,7 @@ suod sysctl -p
 sudo touch /etc/sysctl.conf
 sudo touch /etc/sysctl.d/99-sysctl.conf
 
-echo "net.ipv4.ip_forward = 1" | sudo tee /etc/sysctl.d/99-sysctl.conf
+echo "net.ipv4.ip_forward = 1" | sudo tee -a /etc/sysctl.d/99-sysctl.conf
 
 #启动配置
 sudo sysctl -p
@@ -81,30 +81,23 @@ ip route show default
 
 > 输出如果是 `default via 192.168.122.1 dev enp1s0 onlink` 则网络接口就是 `enp1s0`
 
-> 添加 MASQUERADE 规则
+> 配置nftables的规则
 
 ```bash
-# 如果没有预装 iptables 
-# sudo apt install iptables -y
+# 在R1 & R2 上面执行
 
-sudo iptables -t nat -A POSTROUTING -o enp1s0 -j MASQUERADE
+# 创建表, 指定作用范围
+sudo nft add table inet my_nat
+
+# 创建用于源ip地址转换的链， 绑定到postrouting
+sudo nft add chain inet my_nat postrouing { type nat hook postrouing priority srcnat\; }
+
+# 3. 添加源地址转换（SNAT）规则，将被允许转发的数据包的源IP改为路由器的外网IP
+sudo nft add rule inet my_nat postrouting oif eth0 masquerade # 这里的eth0换成实际的网络接口
 ```
 
-> 允许流量转发
 
-```bash
-sudo iptables -P FORWARD ACCEPT
-```
 
-> 持久化 iptables 规则 (保证重启依旧有效)
-
-```bash
-sudo apt update
-sudo apt install iptables-persistent -y
-sudo netfilter-persistent save
-```
-
-> 配置内网主机的gateway
 
 ```bash
 sudo vi /etc/network/interfaces
