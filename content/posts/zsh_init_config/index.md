@@ -56,7 +56,7 @@ zsh
 > 注意这里可能会跳出一个 git status, 直接 ctrl+C 中断， 但是每次还是会加载， 所以需要改一下配置文件
 
 ```bash
-echo "typeset -g POWERLEVEL9K_DISABLE_GITSTATUS=true" | tee -a .p10k.zsh
+echo "typeset -g POWERLEVEL9K_DISABLE_GITSTATUS=true" | tee -a ~/.p10k.zsh
 ```
 
 > 这个命令会禁用gitstatus的检查， 然后直接exit退出zsh, 之后重新启动就不会有问题了
