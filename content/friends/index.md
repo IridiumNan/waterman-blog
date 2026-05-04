@@ -12,6 +12,9 @@ title = 'Friends'
 
 - [toothwater](https://blog.csdn.net/cccaul)
 
+> A command-line minimalist focused on mastering embedded systems and low-level control.
+Technical logic meets a clean, terminal-driven workflow for efficient hardware development.
+
 - [火树银花](https://www.waterdr1p.com)<br>
 
 > 东风夜放花千树
