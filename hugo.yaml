@@ -47,11 +47,15 @@ menu:
       name: 项目
       url: /projects
       weight: 4
+    - identifier: repo
+      name: 仓库
+      url: /repo
+      weight: 5
     - identifier: friends
       name: 同途
       url: /friends
-      weight: 5
+      weight: 6
     - identifier: about
       name: 关于我
       url: /about
-      weight: 6
+      weight: 7

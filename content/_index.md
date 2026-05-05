@@ -49,3 +49,16 @@ headless = false
 - [wireguard协议虚拟机实验](posts/wireguard_double_router/)
 - [空转](/philosophy/empty_in_university/)
 - [系统与个人的哲学随笔](philosophy/person_system/)
+
+## 个人仓库汇总
+>
+> 可以按需取用， 但是站点不承担风险， 所有的仓库的版权都是github上的原创者所有， 这里只是一个打包和汇总, 主要是我个人使用
+
+- [bilibili for linux](repo/app-bilibili/)
+- [docker](repo/app-docker/)
+- [hugo](repo/app-hugo/)
+- [neovim](repo/app-neovim/)
+<br>
+- [config-lazyvim](repo/config-lazyvim/)
+- [config-oh-my-tmux](repo/config-oh-my-tmux/)
+- [config-zinit](repo/config-zinit/)
