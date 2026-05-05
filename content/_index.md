@@ -11,6 +11,8 @@ headless = false
 <br>来自福建
 <br>[我的gitee](https://gitee.com/cai-zixiang_hainan)
 
+## [同路计划](posts/alongwith/)
+
 > 之所以用gitee而不用github不是因为不会科学上网， 而是有一些服务器拉不到github上的内容
 
 ## 本站内容
