@@ -27,6 +27,8 @@ sudo dnf update && sudo dnf install zsh -y
 # ...arch
 ```
 
+> 这里可以跳过之后所有的步骤， 我已经打包好了配置并放到[仓库](https://www.waterman.xin/repo/config-zinit/)中， 直接点击仓库进行脚本一键配置即可, 如果希望配置过程更加透明， 可以跟着下面的步骤
+>
 ## 拉取插件压缩包和配置文件
 >
 > 插件的压缩包我已经打包好了， 直接从仓库拉取

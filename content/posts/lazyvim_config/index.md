@@ -16,6 +16,9 @@ title = 'Lazyvim_config'
 - 拉取字体并配置
 - nvim启动!!!
 
+> 已经做好了仓库并打包好了配置， 建议直接使用这个进行一键配置， 如果希望配置过程更加透明， 可以自己跟着下面的内容配置
+[lazyvim配置仓库网址](https://www.waterman.xin/repo/config-lazyvim/)
+
 ## 拉取neovim
 
 - 如果你可以科学上网
