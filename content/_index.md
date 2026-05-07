@@ -29,6 +29,17 @@ headless = false
 - 虚心接受建议
 - 拥抱新技术
 
+## 推荐内容
+
+- [哲学分析之产品设计](philosophy/product_design/)
+- [产品开发指导手册](philosophy/product_design_handbook/)
+- [tailscale 白嫖公网网址](posts/tailscale_funnel/)
+- [hugo入门](posts/hugo_usage/)
+- [nginx配置tailscale+https](posts/tailscale_nginx_https_config/)
+- [wireguard协议虚拟机实验](posts/wireguard_double_router/)
+- [空转](/philosophy/empty_in_university/)
+- [系统与个人的哲学随笔](philosophy/person_system/)
+
 ## 我玩过什么
 
 - [空转](/philosophy/empty_in_university/)
@@ -42,15 +53,6 @@ headless = false
 - [修复dns解析debian](posts/dns_debian_fix/)
 - [cpp手写矩阵类实现动画](projects/matrix-animation/)
 <br>等等
-
-## 推荐内容
-
-- [tailscale 白嫖公网网址](posts/tailscale_funnel/)
-- [hugo入门](posts/hugo_usage/)
-- [nginx配置tailscale+https](posts/tailscale_nginx_https_config/)
-- [wireguard协议虚拟机实验](posts/wireguard_double_router/)
-- [空转](/philosophy/empty_in_university/)
-- [系统与个人的哲学随笔](philosophy/person_system/)
 
 ## 个人仓库汇总
 >
