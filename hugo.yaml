@@ -1,6 +1,6 @@
 baseURL: /
 languageCode: zh-cn
-title: water-man-site
+title: waterman-site
 theme: hugo-theme-stack
 
 pagination:
