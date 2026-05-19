@@ -69,3 +69,12 @@ Host myserver
 
 ssh ubuntu@myserver #  根据你实际的配置进行更改
 ```
+
+## ssh指定密码
+
+- ssh对于一个新的连接， 会逐个尝试之前的密钥文件， 但是如果是全新的服务器， 尝试密钥文件失败过多次会被拉黑导致无法配置
+- 这个时候加入 `-o IdentitiesOnly=yes` 这个参数就可以指定使用密码登录
+
+```bash
+ssh-copy-id -i ~/.ssh/virt_debian_inner1_rsa.pub -o IdentitiesOnly=yes user@ip 
+```
