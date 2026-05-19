@@ -49,6 +49,8 @@ curl -O https://repo.waterman.xin/apps/water-repo/wt-lastest-windows-amd64.exe
 如果你使用bash
 
 ```bash
+# 添加执行权限
+chmod +x wt-lastest-linux-amd64
 echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc
 mkdir -p ~/.local/bin && mv $PWD/wt-lastest-linux-amd64 ~/.local/bin/wt
 source ~/.bashrc
@@ -57,6 +59,7 @@ source ~/.bashrc
 如果你使用zsh
 
 ```bash
+chmod +x wt-lastest-linux-amd64
 echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.zshrc
 mkdir -p ~/.local/bin && mv $PWD/wt-lastest-linux-amd64 ~/.local/bin/wt
 source ~/.zshrc
