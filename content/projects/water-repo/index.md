@@ -50,7 +50,7 @@ curl -O https://repo.waterman.xin/apps/water-repo/wt-lastest-windows-amd64.exe
 
 ```bash
 echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc
-mkdir -p ~/.local/bin && mv wt-lastest-linux-amd64 ~/.local/bin/wt
+mkdir -p ~/.local/bin && mv $PWD/wt-lastest-linux-amd64 ~/.local/bin/wt
 source ~/.bashrc
 ```
 
@@ -58,6 +58,6 @@ source ~/.bashrc
 
 ```bash
 echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.zshrc
-mkdir -p ~/.local/bin && mv wt-lastest-linux-amd64 ~/.local/bin/wt
+mkdir -p ~/.local/bin && mv $PWD/wt-lastest-linux-amd64 ~/.local/bin/wt
 source ~/.zshrc
 ```
