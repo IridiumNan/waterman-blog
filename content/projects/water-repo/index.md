@@ -43,3 +43,21 @@ curl -O https://repo.waterman.xin/apps/water-repo/wt-lastest-windows-amd64.exe
 ```
 
 - 然后看视频操作
+
+- 配置环境变量(Linux)<br>
+
+如果你使用bash
+
+```bash
+echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.bashrc
+mkdir -p ~/.local/bin && mv wt-lastest-linux-amd64 ~/.local/bin/wt
+source ~/.bashrc
+```
+
+如果你使用zsh
+
+```bash
+echo 'export PATH=$PATH:$HOME/.local/bin' >> ~/.zshrc
+mkdir -p ~/.local/bin && mv wt-lastest-linux-amd64 ~/.local/bin/wt
+source ~/.zshrc
+```
