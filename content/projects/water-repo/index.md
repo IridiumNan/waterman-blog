@@ -42,7 +42,7 @@ curl -LO https://repo.waterman.xin/apps/water-repo/wt-lastest-darwin-arm64
 curl -O https://repo.waterman.xin/apps/water-repo/wt-lastest-windows-amd64.exe
 ```
 
-- 然后看视频操作
+- 然后看视频操作[wt-demo](https://repo.waterman.xin/share/wt-demo.mp4)
 
 - 配置环境变量(Linux)<br>
 
