@@ -31,6 +31,7 @@ headless = false
 
 ## 推荐内容
 
+- [water-repo项目](projects/water-repo/)
 - [哲学分析之产品设计](philosophy/product_design/)
 - [产品开发指导手册](philosophy/product_design_handbook/)
 - [tailscale 白嫖公网网址](posts/tailscale_funnel/)
