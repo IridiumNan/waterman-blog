@@ -42,7 +42,9 @@ headless = false
 
 ## 设计分析
 
-- [哲学分析之产品设计](design/product_design/)
+- [产品设计迭代流程](design/design_process/index.md)
+- [产品的数据六纬度分析](design/data_analysis/)
+- [产品设计三要素分析](design/product_design/)
 - [产品开发指导手册](design/product_design_handbook/)
 
 ## 推荐项目
