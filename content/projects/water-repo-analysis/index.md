@@ -6,7 +6,7 @@ title = 'Water Repo Analysis'
 
 # water-repo 产品剖析
 
-[gitee仓库地址](https://gitee.com/cai-zixiang_hainan/wt)
+[gitee仓库地址](https://gitee.com/cai-zixiang_hainan/wt)<br>
 [github仓库地址](https://github.com/IridiumNan/wt)
 
 > 本文章基于[产品三要素分析](https://www.waterman.xin/design/product_design/) 以及 [数据六纬度](https://www.waterman.xin/design/data_analysis/) 两个分析方法对 基于 go 的轻量级CLI个人/小团体的仓库管理工具 `wt` 进行分析
@@ -48,26 +48,26 @@ title = 'Water Repo Analysis'
 
 ### 规则
 
-- 3 Token
+- 3 Token<br>
 摒弃传统角色注册体系，采用‘全局 Token + 标签级 Token’的两级权限体系，仅通过 3 级权限（read/install/write）控制操作，无需关心‘用户是谁’，仅校验‘是否有权限’
 
-- n Tag
+- n Tag<br>
 不使用目录进行数据的组织, 而是所有的包都放在同一个目录下， 通过标签区别用途和权限，使用扁平化标签进行组织和分发，不需要记住复杂的逻辑结构(当然这跟`wt`的定位密不可分, wt 是包管理器而不是git版本控制器，只负责存储和分发打包好的东西). 备份和维护极其简单,打包一个目录直接迁移
 
-- soft link + funnel
+- soft link + funnel<br>
 使用tailscale funnel + 软链接进行公网的分享: `wt public <package>` -> 建立软链接到 /path/to/data/public/文件夹 -> funnel 暴露 public 文件夹 -> 多个包通过链接直接下载. 不占用存储空间， 调用private命令直接删除软链接取消分享，设计极简而高效
 
 ## 六纬度
 
-- 输入
+- 输入<br>
 用户通过  `tag` `config` 几个核心命令即可完成所有必要的仓库初始化和权限管理， 只有前期配置token的时候花费2-3分钟，其余时间直接使用类 linux的命令 `search` `upload` `ls` `mv` `rm` `install` 进行简单的管理，这里特地使用了 linux包管理器的命令以及 ls, mv, rm 等原生linux命令，直接无缝衔接开发者的日常操作. 做到易用性
-- 存储
+- 存储<br>
 用户完全自定义存储，只需要通过 `wt server -d /path/to/dir` 指定目录就能够直接使用， 不依赖任何的特定结构和操作系统. 配置文件完全本地留存，支持 `wt uninstall` 一条命令下载
-- 处理
+- 处理<br>
 之保留最必要的信息，包名， 大小， 修改时间， 标签，标签和token的权限关系， 没有任何的用户敏感信息
-- 分析
+- 分析<br>
 通过标签对包进行查看和管理，设计极简, 不引入不必要的设计
-- 分发
+- 分发<br>
 `wt` 的默认网络环境是在内网进行的， 但是也可以使用`tailnet` 进行异地组网进行文件的共享，默认的http协议跟 `tailnet`进行配合能够保证安全性， 或者在公司的内网进行使用。也集成了`tailscale funnel` 进行公网的分发和使用。
-- 呈现
+- 呈现<br>
 wt 工具的呈现层以极简为核心，不强制展示包的复杂逻辑关系，而是通过标签过滤 + FZF 交互式检索实现高效呈现，完全适配开发者的命令行操作习惯；
