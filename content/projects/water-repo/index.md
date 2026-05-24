@@ -6,6 +6,8 @@ title = 'Water Repo'
 
 # water-repo (wt)
 
+[剖析与复盘](https://www.waterman.xin/projects/water-repo-analysis/)
+
 ## 仓库
 
 - 权威仓库: [github](https://github.com/IridiumNan/wt)
