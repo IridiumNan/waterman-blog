@@ -8,7 +8,7 @@ title = 'Product_design'
 
 > 本框架用于产品设计时的分析，不是纯哲学内容，所以定义没有那么严谨
 
-[相应的开发手册](https://www.waterman.xin/philosophy/product_design_handbook/)
+[相应的开发手册](https://www.waterman.xin/design/product_design_handbook/)
 
 ## 传统的叙事框架
 
