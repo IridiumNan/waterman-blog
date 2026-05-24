@@ -4,9 +4,10 @@ draft = true
 title = 'Design_process'
 +++
 
-# 产品设计流程（最终修订版）
+# 产品设计流程
 >
 > 本流程依赖于[设计理念哲学分析](https://www.waterman.xin/design/product_design/) 和 [产品设计数据分析](https://www.waterman.xin/design/data_analysis/) 两篇文章的 **理念-关系-规则 三要素** 以及 **输入、存储、处理、分析、分发、呈现 六维度** 分析方法
+>
 > [设计开发模板](https://www.waterman.xin/design/design_process_handbook/)
 >
 > **普适性说明**：本流程适用于所有类型的软件产品（工具类、社交类、内容类、平台类等）；已有产品的迭代优化可参考本框架，无需严格遵循所有步骤顺序
