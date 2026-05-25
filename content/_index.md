@@ -42,8 +42,9 @@ headless = false
 
 ## 设计分析
 
+- [tailscale初步拆解分析](design/tailscale/)
 - [产品设计迭代流程](design/design_process/)
-- [产品的数据六纬度分析](design/data_analysis/)
+- [产品的数据六维度分析](design/data_analysis/)
 - [产品设计三要素分析](design/product_design/)
 - [产品开发指导手册](design/product_design_handbook/)
 
