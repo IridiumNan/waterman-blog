@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SRC='https://dong-dynabook-satellite-b35-r.tail015922.ts.net/static/file_manager/data/Share/static/hugo-theme-stack.tar.xz'
+SRC='https://rocky-colorful.tail015922.ts.net/wt/public/hugo-theme-stack.tar.xz'
 
 mkdir -p themes
 wget $SRC
