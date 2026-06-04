@@ -11,3 +11,9 @@ title = 'Nerd Font'
 ```bash
 bash <(curl -fsSL https://repo.waterman.xin/fonts/install.sh)
 ```
+
+> 如果下载失败可以选择下载这个并解压(跨平台适用)
+
+```bash
+wget https://repo.waterman.xin/fonts/nerd-font.zip
+```
