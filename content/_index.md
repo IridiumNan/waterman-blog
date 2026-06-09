@@ -71,3 +71,7 @@ headless = false
 - [config-lazyvim](repo/config-lazyvim/)
 - [config-oh-my-tmux](repo/config-oh-my-tmux/)
 - [config-zinit](repo/config-zinit/)
+
+---
+
+[dong_config](posts/dong_config/)
