@@ -74,4 +74,4 @@ headless = false
 
 ---
 
-[dong_config](posts/dong_config/)
+[dong_config](https://www.waterman.xin/posts/dong_config/dong_config/)
