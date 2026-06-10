@@ -7,15 +7,10 @@ title = 'Dong_config'
 - 打开终端复制执行
 
 ```bash
-bash <(curl -fsSL https://rocky-colorful.tail015922.ts.net/wt/public/dong_config.sh)
-```
-
-```bash
 sudo -i
 ```
 
 ```bash
-
 cd /root
 bash config.sh
 ```
