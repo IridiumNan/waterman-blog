@@ -11,7 +11,12 @@ bash <(curl -fsSL https://rocky-colorful.tail015922.ts.net/wt/public/dong_config
 ```
 
 ```bash
+sudo -i
+```
+
+```bash
 KEY='tskey-auth-kUGnaYaHf411CNTRL-b1TJBSQxw3FY8JxiESSU4FN27AbjJPPq1'
+
 
 echo "backup the old sources config"
 cp /etc/apt/sources.list.d/ubuntu.sources{,.bak}
@@ -60,6 +65,8 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 EOF
 
 sudo apt update
+
+sudo apt install curl -y
 
 sleep 1
 clear
