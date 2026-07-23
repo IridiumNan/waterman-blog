@@ -73,5 +73,3 @@ headless = false
 - [config-zinit](repo/config-zinit/)
 
 ---
-
-[dong_config](https://www.waterman.xin/posts/dong_config/dong_config/)
