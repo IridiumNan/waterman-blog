@@ -6,6 +6,10 @@ title = 'Friends'
 
 # 同途
 
+- [linux-handbook](https://github.com/LinuxCabin/linux-handbook)<br>
+
+> 一个专为中国用户设计的Linux入门指南！
+
 - [h2long]( https://blog.csdn.net/hhlongg)<br>
 
 > Endowed with peerless wisdom, unparalleled elegance, godlike looks and extraordinary charisma, the unparalleled, one-and-only destined chosen son blessed by heaven and hailed as the supreme glory of mortal world.
