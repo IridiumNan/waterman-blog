@@ -112,7 +112,7 @@ PRETTY_NAME="Ubuntu 24.04.1 LTS"
 
 ```bash
 # 先备份一下初始的镜像源
-cp /etc/apt/sources.list.d/ubuntu.sources{,.bak}
+sudo cp /etc/apt/sources.list.d/ubuntu.sources{,.bak}
 
 # 写入清华大学镜像源
 echo "
@@ -164,7 +164,7 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 
 ```bash
 # 先备份一下初始的镜像源
-cp /etc/apt/sources.list.d/ubuntu.sources{,.bak}
+sudo cp /etc/apt/sources.list.d/ubuntu.sources{,.bak}
 
 # 写入清华大学镜像源
 echo "Types: deb
