@@ -108,14 +108,41 @@ cat /etc/os-release
 PRETTY_NAME="Ubuntu 24.04.1 LTS"
 这里的 24.04 代表发行的时间
 
-如果你是 **24.04 执行下面的命令**
+**进行下面的操作之前, 请将你的键盘调成英文模式, 否则会失败**
+
+首先备份一下原来的文件
 
 ```bash
-# 先备份一下初始的镜像源
-sudo cp /etc/apt/sources.list.d/ubuntu.sources{,.bak}
+sudo cp /etc/apt/sources.list.d/{ubuntu.sources,ubuntu.sources.bak}
+```
 
-# 写入清华大学镜像源
-echo "
+> 这里需要输入密码, 输入之前设置过的回车即可
+
+然后清空文件
+
+```bash
+echo "" | sudo tee /etc/apt/sources.list.d/ubuntu.sources
+```
+
+使用 `vi` 打开文件
+
+```bash
+sudo vi /etc/apt/sources.list.d/ubuntu.sources
+```
+
+这个时候你会看到
+
+![空白的文件](./empty_ubuntu_source.png)
+
+然后按下键盘的 `i` 键进入插入模式, 左下角会出现一个 `INSERT`
+
+![插入模式](./insert_mode.png)
+
+然后用鼠标复制一下下面的内容
+
+如果你是 `24.04` 复制这个
+
+```
 Types: deb
 URIs: https://mirrors.tuna.tsinghua.edu.cn/ubuntu
 Suites: noble noble-updates noble-backports
@@ -155,19 +182,12 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 # # Suites: noble-proposed
 # # Components: main restricted universe multiverse
 # # Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
-" | sudo tee /etc/apt/sources.list.d/ubuntu.sources
 ```
 
-> 这里需要输入密码, 输入之前设置过的回车即可
+如果你是 `26.04` 复制这个
 
-如果是 **26.04 执行下面的命令**
-
-```bash
-# 先备份一下初始的镜像源
-sudo cp /etc/apt/sources.list.d/ubuntu.sources{,.bak}
-
-# 写入清华大学镜像源
-echo "Types: deb
+```
+Types: deb
 URIs: https://mirrors.tuna.tsinghua.edu.cn/ubuntu
 Suites: resolute resolute-updates resolute-backports
 Components: main restricted universe multiverse
@@ -206,8 +226,21 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 # # Suites: resolute-proposed
 # # Components: main restricted universe multiverse
 # # Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
-" | sudo tee /etc/apt/sources.list.d/ubuntu.sources
 ```
+
+点一下终端把焦点重新回到 wsl, 之后同时按住 `ctrl`, `shift`, `v` 进行粘贴
+会出现下面这样的
+![粘贴清华镜像源](./paste_source.png)
+
+然后按 `Esc` 键， 也就是键盘最左上角的那个, 然后**左下角的**`INSERT` 会消失
+
+![普通模式](./normal_mode.png)
+
+之后打出 `:wq`  会自动出现在左下角, 如果没有出现请检查是不是误用了中文输入法
+
+![命令模式](./save_quit.png)
+
+然后回车就成功退回终端了
 
 ---
 
