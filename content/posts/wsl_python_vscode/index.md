@@ -254,6 +254,14 @@ sudo apt upgrade -y # 更新软件
 
 ---
 
+安装一下 `python-is-python3`
+
+```bash
+sudo apt install python-is-python3 -y
+```
+
+---
+
 接下来先创建一个目录存放你的 python 代码， 比如说我这里新建一个 python-learn
 
 ```bash
