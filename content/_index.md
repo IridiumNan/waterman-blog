@@ -33,6 +33,7 @@ headless = false
 - [wireguard协议虚拟机实验](posts/wireguard_double_router/)
 - [nginx配置tailscale+https](posts/tailscale_nginx_https_config/)
 - [搭建wsl vscode python 开发环境](https://www.waterman.xin/posts/wsl_python_vscode/)
+- [windows ssh 连接linux虚拟机教程](https://www.waterman.xin/posts/windows-ssh/)
 - [hugo入门](posts/hugo_usage/)
 - [certbot配置公网https证书](posts/https_certbot_config/)
 - [配置ssh公钥](posts/ssh-key/)

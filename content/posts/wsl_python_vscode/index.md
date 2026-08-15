@@ -297,7 +297,7 @@ code .
 
 ---
 
-剩下的内容可以直接参考 [linux-python入门教程](https://hb.linuxcabin.top/applications/programming/python/)
+剩下的内容可以直接参考[linux-python入门教程](http://localhost:1313/posts/python-linux-begin/)
 
 ---
 
