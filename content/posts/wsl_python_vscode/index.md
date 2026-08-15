@@ -142,7 +142,7 @@ sudo vi /etc/apt/sources.list.d/ubuntu.sources
 
 如果你是 `24.04` 复制这个
 
-```
+```bash
 Types: deb
 URIs: https://mirrors.tuna.tsinghua.edu.cn/ubuntu
 Suites: noble noble-updates noble-backports
@@ -186,7 +186,7 @@ Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 
 如果你是 `26.04` 复制这个
 
-```
+```bash
 Types: deb
 URIs: https://mirrors.tuna.tsinghua.edu.cn/ubuntu
 Suites: resolute resolute-updates resolute-backports
