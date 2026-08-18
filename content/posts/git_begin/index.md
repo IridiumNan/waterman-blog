@@ -26,6 +26,9 @@ cd WORK
 
 # 创建一个 名为 python-learn 的目录, 这里作为演示
 mkdir python-learn 
+
+# 进入这个目录
+cd python-learn
 ```
 
 ## 初始化
