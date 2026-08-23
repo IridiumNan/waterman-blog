@@ -43,6 +43,7 @@ headless = false
 - [debian虚拟机配置路由器](posts/router_config/)
 - [修复dns解析debian](posts/dns_debian_fix/)
 - [tailscale 白嫖公网网址](posts/tailscale_funnel/)
+- [clang lazyvim cpp indent](/posts/clang-indent/)
 
 ## 设计分析
 
