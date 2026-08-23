@@ -1,0 +1,12 @@
+{{ if not .Site.IsServer }}
+  <span id="stats-counter">Loading views...</span>
+<script data-goatcounter="https://iridiumnan.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+  <script>
+    window.goatcounter = {
+      visit_count: function(opt) {
+        document.getElementById('stats-counter').innerText = opt.count + " views";
+      }
+    }
+  </script>
+{{ end }}
