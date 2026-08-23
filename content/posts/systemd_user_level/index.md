@@ -133,16 +133,14 @@ PORT="8080"
 # 服务暴露的目录
 SERVE_PATH=$HOME/public/
 
-echo "Serve start on ${IP}:${PORT}"
-
 echo "ensure dir exist"
 mkdir -p "$SERVE_PATH"
 
 echo "Share the dir ${SERVE_PATH}"
 cd "$SERVE_PATH"
 
-echo "starting http server"
-python -m http.server "$IP" --bind "$PORT"
+echo "Serve start on ${IP}:${PORT}"
+python -m http.server --bind "$IP" "$PORT" 
 ```
 
 - 创建 Unit File 放在用户级别的目录下 (`~/.config/systemd/user/`)
