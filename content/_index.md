@@ -30,6 +30,7 @@ headless = false
 
 ## 推荐帖子
 
+- [user systemd 配置](/posts/systemd_user_level/)
 - [wireguard协议虚拟机实验](posts/wireguard_double_router/)
 - [nginx配置tailscale+https](posts/tailscale_nginx_https_config/)
 - [git 新手指南](https://www.waterman.xin/posts/git_begin/)
