@@ -88,7 +88,7 @@ WantedBy=multi-user.target
   - **ExecStart** 这是我们使用 systemctl start 的时候会自动执行的命令, 用来规定服务如何启动. **需要注意的是我们需要使用绝对路径而不是相对路径**
   - **User** 和 **Group** 则是规定这个进程的归属用户和组, 使用你自己的用户名即可
   - **ExecReload** 这里规定了我们执行 systemctl reload 之后的操作或者行为
-  - **ExecStop** 相信你也可以才到这是 执行 systemctl stop 的行为
+  - **ExecStop** 相信你也可以猜到这是 执行 systemctl stop 的行为
   - **Restart** 以及 **RestartSec** 规定服务因为失败而重新尝试启动的配置, 一般使用上面的这个参数即可，请阅读参考链接进一步了解
 
 - **Install**
