@@ -19,3 +19,8 @@ sudo apt install zsh -y # debian 系安装 zsh
 ```bash
 bash <(curl -fsSL https://repo.waterman.xin/configs/zsh/config.sh)
 ```
+
+---
+
+注意zinit在有些发行版的字体上可能图表显示不太好
+建议换成 [`Nerd Font`](https://www.waterman.xin/repo/nerd-font/)
