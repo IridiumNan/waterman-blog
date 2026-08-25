@@ -1,9 +1,10 @@
 {
- "compilerOptions": {
-  "paths": {
-   "*": [
-    "../themes/hugo-theme-stack/assets/*"
-   ]
-  }
- }
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "../themes/hugo-theme-stack/assets/*"
+            ]
+        }
+    }
 }
