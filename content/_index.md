@@ -73,8 +73,8 @@ headless = false
 - [hugo](repo/app-hugo/)
 - [neovim](repo/app-neovim/)
 <br>
-- [config-lazyvim](repo/config-lazyvim/)
+- [config-neovim-lazyvim](repo/config-lazyvim/)
 - [config-oh-my-tmux](repo/config-oh-my-tmux/)
-- [config-zinit](repo/config-zinit/)
+- [config-zsh-theme-zinit](repo/config-zinit/)
 
 ---
