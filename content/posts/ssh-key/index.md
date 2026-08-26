@@ -48,11 +48,12 @@ ssh-copy-id -i ~/.ssh/virt_debian_inner1_rsa.pub user@ip # 这里的user和ip根
 nano ~/.ssh/config # 用编辑器打开配置文件进行修改
 ```
 
-```config
+```conf
 Host myserver
     HostName 192.168.1.100
     User ubuntu
     IdentityFile ~/.ssh/virt_debian_inner1_rsa 
+    Port 22
 ```
 
 - Host 写一个你自己容易记住和识别这个机器的用途的， 比如 myserver 表示我自己的服务器之类的

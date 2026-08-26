@@ -38,6 +38,7 @@ headless = false
 - [windows ssh 连接linux虚拟机教程](https://www.waterman.xin/posts/windows-ssh/)
 - [hugo入门](posts/hugo_usage/)
 - [certbot配置公网https证书](posts/https_certbot_config/)
+- [sshd 端口更换](/posts/sshd_port/)
 - [配置ssh公钥](posts/ssh-key/)
 - [debian配置静态ip](posts/static_ip_addr/)
 - [debian虚拟机配置路由器](posts/router_config/)
