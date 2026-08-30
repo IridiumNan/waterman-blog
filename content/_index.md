@@ -28,23 +28,30 @@ headless = false
 - 虚心接受建议
 - 拥抱新技术
 
-## 推荐帖子
+## Linux
 
 - [user systemd 配置](/posts/systemd_user_level/)
-- [wireguard协议虚拟机实验](posts/wireguard_double_router/)
+- [journalctl 入门](/posts/journalctl/)
 - [nginx配置tailscale+https](posts/tailscale_nginx_https_config/)
+- [tailscale 白嫖公网网址](posts/tailscale_funnel/)
+- [配置ssh公钥](posts/ssh-key/)
+- [sshd 端口更换](/posts/sshd_port/)
+- [certbot配置公网https证书](posts/https_certbot_config/)
+
+## 开发相关
+
 - [git 新手指南](https://www.waterman.xin/posts/git_begin/)
 - [搭建wsl vscode python 开发环境](https://www.waterman.xin/posts/wsl_python_vscode/)
 - [windows ssh 连接linux虚拟机教程](https://www.waterman.xin/posts/windows-ssh/)
+- [clang lazyvim cpp indent](/posts/clang-indent/)
 - [hugo入门](posts/hugo_usage/)
-- [certbot配置公网https证书](posts/https_certbot_config/)
-- [sshd 端口更换](/posts/sshd_port/)
-- [配置ssh公钥](posts/ssh-key/)
+
+## 网络相关
+
+- [wireguard协议虚拟机实验](posts/wireguard_double_router/)
 - [debian配置静态ip](posts/static_ip_addr/)
 - [debian虚拟机配置路由器](posts/router_config/)
 - [修复dns解析debian](posts/dns_debian_fix/)
-- [tailscale 白嫖公网网址](posts/tailscale_funnel/)
-- [clang lazyvim cpp indent](/posts/clang-indent/)
 
 ## 设计分析
 
