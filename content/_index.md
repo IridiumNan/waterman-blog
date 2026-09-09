@@ -43,6 +43,8 @@ headless = false
 ## 开发相关
 
 - [git 新手指南](https://www.waterman.xin/posts/git_begin/)
+- [linux jupyter notebook 配置](/posts/jupyter-server/)
+- [linux miniconda 使用](/posts/miniconda/)
 - [搭建wsl vscode python 开发环境](https://www.waterman.xin/posts/wsl_python_vscode/)
 - [windows ssh 连接linux虚拟机教程](https://www.waterman.xin/posts/windows-ssh/)
 - [clang lazyvim cpp indent](/posts/clang-indent/)
