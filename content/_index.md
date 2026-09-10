@@ -9,10 +9,11 @@ headless = false
 
 我是一个爱玩linux的计算机学生
 <br>来自福建
-<br>[我的gitee](https://gitee.com/cai-zixiang_hainan)
 <br>[我的github](https://github.com/IridiumNan)
+<br>[我的gitee](https://gitee.com/cai-zixiang_hainan)
 
-> gitee是我日常在使用的，因为服务器拉取内容方便
+> [!NOTE]
+> github 是日常在用的， gitee 用来放一些博客和教程
 
 ## 本站内容
 
