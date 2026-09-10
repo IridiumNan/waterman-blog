@@ -88,3 +88,41 @@ pip install numpy
 conda env list
 # 列出所有环境， 如果是当前的环境， 会标有 *
 ```
+
+---
+
+## 安装 pygame 和使用
+
+- 创建一个新的虚拟环境， 命名为 game, 指定 python 的版本为 3.12
+
+```bash
+conda create -n game python=3.12
+```
+
+- 激活刚才创建的 game 虚拟环境
+
+```bash
+conda activate game
+```
+
+- 使用 `pip` 安装 pygame
+
+```bash
+pip install pygame
+```
+
+这个时候我们就可以正常使用 `pygame` 了 (如果你的编辑器自动检测到 conda 环境的话)
+
+- 下次使用
+
+只需要重新激活现有的 game 环境即可， 只要你不删除， 就可以重复使用
+也可以跨项目进行使用
+
+```bash
+conda activate game
+```
+
+---
+
+上面就是相关的配置方法了， 如果你有疑问， 欢迎联系
+祝你配置顺利 😃
