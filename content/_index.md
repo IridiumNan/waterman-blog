@@ -43,6 +43,7 @@ headless = false
 
 ## 开发相关
 
+- [golang 函数工厂](/posts/function_factory/)
 - [git 新手指南](https://www.waterman.xin/posts/git_begin/)
 - [linux jupyter notebook 配置](/posts/jupyter-server/)
 - [linux miniconda 使用](/posts/miniconda/)
