@@ -52,6 +52,7 @@ headless = false
 - [windows ssh 连接linux虚拟机教程](https://www.waterman.xin/posts/windows-ssh/)
 - [clang lazyvim cpp indent](/posts/clang-indent/)
 - [hugo入门](posts/hugo_usage/)
+- [gitea 最大文件上限配置](/posts/gitea_max_size/)
 
 ## 网络相关
 
