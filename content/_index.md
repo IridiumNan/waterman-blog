@@ -45,6 +45,7 @@ headless = false
 
 - [golang 函数工厂](/posts/function_factory/)
 - [golang test cache](/posts/go_test_cache_fix/)
+- [cpp 新手教程 Linux](/posts/cpp_beginner/)
 - [git 新手指南](https://www.waterman.xin/posts/git_begin/)
 - [linux jupyter notebook 配置](/posts/jupyter-server/)
 - [linux miniconda 使用](/posts/miniconda/)
