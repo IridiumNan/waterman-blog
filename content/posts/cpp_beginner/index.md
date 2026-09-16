@@ -1,7 +1,7 @@
 +++
-date = '2026-09-18T23:08:00+08:00'
+date = '2026-08-23T21:10:33+08:00'
 draft = true
-title = 'Cpp_Beginner'
+title = 'Cpp_beginner'
 +++
 
 # 在 Linux 上运行 cpp 代码
