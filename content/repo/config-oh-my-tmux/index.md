@@ -30,6 +30,8 @@ bash <(curl -fsSL https://repo.waterman.xin/configs/tmux/config.sh)
 
 所以我改成了 `C-x` 也就是 同时 `ctrl` 和 `x` 作为 `prefix`
 
+> 如果你想要修改 这个 prefix 的设置， 可以编辑 `~/.config/tmux/tmux.conf.local` 的第 400 - 401 行
+
 ---
 
 ## 常用操作
