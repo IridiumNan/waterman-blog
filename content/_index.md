@@ -52,6 +52,7 @@ headless = false
 - [搭建wsl vscode python 开发环境](https://www.waterman.xin/posts/wsl_python_vscode/)
 - [windows ssh 连接linux虚拟机教程](https://www.waterman.xin/posts/windows-ssh/)
 - [clang lazyvim cpp indent](/posts/clang-indent/)
+- [lazyvim langd config](/posts/lazyvim_cmake/)
 - [hugo入门](posts/hugo_usage/)
 - [gitea 最大文件上限配置](/posts/gitea_max_size/)
 

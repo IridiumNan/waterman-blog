@@ -29,3 +29,6 @@ lazyvim 当中可以通过插件，来进行自动生成， 进而获得 项目�
 当项目中有 `CMakeLists.txt` 这个文件的时候， 在 lazyvim 当中执行 `:CMakeGenerate`
 
 就会自动进行编译并将 `compile_commands.json` 软链接到项目的根目录， 这个时候重新启动就可以获得 lsp 的语法支持
+
+> [!NOTE]
+> 配置缩进可以查看帖子 <https://www.waterman.xin/posts/clang-indent/>
