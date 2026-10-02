@@ -25,3 +25,8 @@ UseTab: Never
 ```
 
 - Then you can begin your coding, lazyvim will format it as 4 indentwidth
+
+> [!NOTE]
+> You can place this `.clang-format` file on ~/  
+> and clang will search from parent dir  
+> then this will equal to global configuration
