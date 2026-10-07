@@ -61,6 +61,7 @@ headless = false
 - [wireguard协议虚拟机实验](posts/wireguard_double_router/)
 - [debian配置静态ip](posts/static_ip_addr/)
 - [debian虚拟机配置路由器](posts/router_config/)
+- [curl 禁用代理](/posts/curl_no_proxy/)
 - [修复dns解析debian](posts/dns_debian_fix/)
 
 ## 设计分析
