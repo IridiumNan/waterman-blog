@@ -12,9 +12,7 @@ title = 'Config Lazyvim'
 bash <(curl -fsSL https://repo.waterman.xin/configs/lazyvim/config.sh)
 ```
 
-关于入门使用可以查看 [LazyVim入坑视频](https://www.bilibili.com/video/BV1TJCvYFE2T?t=286.5)
-
-> 这里只介绍一些 lazyvim 特有的内容， 基础的 `vim` 键位可以参考其他资源
+> 这里只介绍一些 lazyvim 特有的内容， 基础的 `vim` 键位可以参考[Linux handbook](https://hb.linuxcabin.top/applications/editors/vim/)
 
 ## 常用快捷键
 
@@ -104,3 +102,5 @@ lazyvim 对于注释有特殊的处理， 这让视觉效果特别好
 ![comment highlights picture](./comment.png)
 
 希望可以给你带来帮助, 欢迎来到 `lazyvim`
+
+也可以参考 [LazyVim入坑视频](https://www.bilibili.com/video/BV1TJCvYFE2T?t=286.5)
