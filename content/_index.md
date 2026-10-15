@@ -40,6 +40,7 @@ headless = false
 - [certbot配置公网https证书](posts/https_certbot_config/)
 - [nginx 软链接开启](/posts/nginx_symlink/)
 - [pandoc 基础使用](/posts/pandoc_beginner/)
+- [vim 入门](/posts/vim_begginer/)
 
 ## 开发相关
 

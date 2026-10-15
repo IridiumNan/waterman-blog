@@ -12,7 +12,7 @@ title = 'Config Lazyvim'
 bash <(curl -fsSL https://repo.waterman.xin/configs/lazyvim/config.sh)
 ```
 
-> 这里只介绍一些 lazyvim 特有的内容， 基础的 `vim` 键位可以参考[Linux handbook](https://hb.linuxcabin.top/applications/editors/vim/)
+> 这里只介绍一些 lazyvim 特有的内容， 基础的 `vim` 键位可以参考 [vim beginner](/posts/vim_begginer/)
 
 ## 常用快捷键
 
