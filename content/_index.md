@@ -59,6 +59,7 @@ headless = false
 
 ## 网络相关
 
+- [http 基础讲解](/posts/http_basic/)
 - [wireguard协议虚拟机实验](posts/wireguard_double_router/)
 - [debian配置静态ip](posts/static_ip_addr/)
 - [debian虚拟机配置路由器](posts/router_config/)
